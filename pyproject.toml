@@ -1,0 +1,20 @@
+[project]
+name = "lidartesting"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "", email = ""},
+]
+dependencies = [
+    "git+https://github.com/purepani/openpylivox.git",
+    "numpy>=1.26.3",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
